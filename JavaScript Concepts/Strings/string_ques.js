@@ -129,3 +129,14 @@ for(let w of str5.split(' ')) {
     }
 }
 console.log(res5);
+
+// Q15 
+let str6 = "aaarrrefffffrrrrrrrfsgsrrrrrsfgr";
+let roccur = 0;
+for(let c of str6) {
+    if(c === 'r'){
+        roccur+=1;
+    }
+    
+}
+console.log("count of 'r' occurance: ",roccur);
